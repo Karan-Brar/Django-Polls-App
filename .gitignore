@@ -5,3 +5,4 @@ __init__.py
 asgi.py
 wsgi.py
 migrations
+settings.py
