@@ -1,4 +1,3 @@
-import imp
 from django.shortcuts import render, get_object_or_404
 from django.http import Http404, HttpResponse
 from .models import Question
