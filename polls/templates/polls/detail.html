@@ -1,5 +1,5 @@
 <body>
-  <form action="{% url 'polls:vote' question.id %} method=" post>
+  <form action="{% url 'polls:vote' question.id %}" method="post">
     {% csrf_token %}
     <fieldset style="margin-bottom: 10px">
       <legend><h1>{{ question.question_text}}</h1></legend>
